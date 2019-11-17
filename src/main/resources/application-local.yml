@@ -1,0 +1,10 @@
+document:
+  inputFilePath: src/main/resources/input/
+  outputFilePath: src/main/resources/output/
+
+tesseract:
+#  datapath: /usr/local/Cellar/tesseract/4.0.0_1/share/tessdata
+  datapath: /usr/local/share/tessdata
+  language: rus+eng
+  hocr: false
+  preserveInterwordSpaces: 1

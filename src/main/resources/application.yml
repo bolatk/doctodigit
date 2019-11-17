@@ -1,0 +1,21 @@
+spring:
+  main:
+    web-application-type: none
+
+document:
+  inputFilePath: /opt/resources/input/
+  outputFilePath: /opt/resources/output/
+
+tesseract:
+  datapath: /usr/share/tesseract-ocr/4.00/tessdata
+  language: eng+rus
+  hocr: true
+  preserveInterwordSpaces: 1
+
+webservices:
+  odoo:
+    url: http://zzzs.ai:8070
+    auth:
+      db: odoo12
+      username: xxx
+      password: yyy
